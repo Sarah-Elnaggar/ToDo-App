@@ -6,8 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Items.h"
+#import "DetailsViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDelegate, UITableViewDataSource, UISearchBarDelegate>
 
 
 @end
